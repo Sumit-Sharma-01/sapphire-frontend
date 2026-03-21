@@ -609,7 +609,7 @@ function CustomModal({ modal, setModal }) {
                 <img src="/QR.jpeg" alt="Scan to Pay" className="w-40 h-40" />
             </div>
             <div className="bg-slate-950 px-4 py-2 rounded-full border border-white/10">
-                <p className="text-amber-400 font-black text-[11px] uppercase tracking-widest UPI">shyamalkumar414@okicici</p>
+                <p className="text-amber-400 font-black text-[11px] uppercase tracking-widest UPI">nazimkhan1212@ptaxis</p>
 
                   <button 
                   onClick={() => navigator.clipboard.writeText('shyamalkumar414@okicici')}
