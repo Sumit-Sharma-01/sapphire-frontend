@@ -289,16 +289,16 @@ function AdminDashboard({ setModal }) {
 
 function Dashboard({ user, setUser, setActiveTab, setModal }) {
   const plans = [
-    { id: 1, name: "Starter Card", price: 1000, daily: 500, duration: 20, tag: "POPULAR" },
-    { id: 2, name: "Gold Card", price: 2000, daily: 1000, duration: 15, tag: "HOT" },
-    { id: 3, name: "Silver Card", price: 3000, daily: 15000, duration: 15, tag: "HOT" },
-    { id: 4, name: "Platinum Card", price: 4000, daily: 2000, duration: 15, tag: "HOT" },
-    { id: 5, name: "Elite Card", price: 5000, daily: 2500, duration: 15, tag: "HOT" },
-    { id: 6, name: "Premium Card", price: 6000, daily: 3000, duration: 15, tag: "HOT" },
-    { id: 7, name: "Signature Card", price: 7000, daily: 3500, duration: 15, tag: "HOT" },
-    { id: 8, name: "Legend Card", price: 8000, daily: 4000, duration: 15, tag: "HOT" },
-    { id: 9, name: "Infinity Card", price: 9000, daily: 4500, duration: 15, tag: "HOT" },
-    { id: 10, name: "VIP Diamond", price: 10000, daily: 5000, duration: 20, tag: "ELITE" }
+    { id: 1, name: "Starter Card", price: 700, daily: 380, duration: 28, tag: "POPULAR" },
+    { id: 2, name: "Gold Card", price: 1500, daily: 880, duration: 29, tag: "HOT" },
+    { id: 3, name: "Silver Card", price: 3660, daily: 2080, duration: 28, tag: "HOT" },
+    { id: 4, name: "Platinum Card", price: 4880, daily: 2660, duration: 28, tag: "HOT" },
+    { id: 5, name: "Elite Card", price: 7820, daily: 4290, duration: 28, tag: "HOT" },
+    { id: 6, name: "Premium Card", price: 18520, daily: 9800, duration: 25, tag: "HOT" },
+    { id: 7, name: "Signature Card", price: 38600, daily: 22900, duration: 20, tag: "HOT" },
+    { id: 8, name: "Legend Card", price: 48700, daily: 26700, duration: 20, tag: "HOT" },
+    { id: 9, name: "Infinity Card", price: 156000, daily: 72900, duration: 20, tag: "HOT" },
+    { id: 10, name: "VIP Diamond", price: 520000, daily: 256000, duration: 10, tag: "ELITE" }
   ];
 
   const buyPlan = async (p) => {
